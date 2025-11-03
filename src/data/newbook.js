@@ -1,0 +1,80 @@
+import prod1 from '../assets/prod1.png'
+import prod2 from '../assets/prod2.png'
+import prod3 from '../assets/prod3.png'
+import prod4 from '../assets/prod4.png'
+import prod5 from '../assets/prod5.png'
+export const Yangi= [
+    {
+      id: 1,
+      title: "Элжернга аталган гуллар",
+      author: "Дэниел КИЗ",
+      isbn: "121341381648",
+      pages: 450,
+      lang: "Ўзбек",
+      publisher: "Wepress Inc.",
+      date: "Апрель 7, 1999",
+      image: prod1,
+      price: "65 000 сўм",
+      price2: "75 000 сўм",
+      price3: "85 000 сўм",
+    },
+    {
+      id: 2,
+      title: "Элжернга аталган гуллар",
+      author: "Дэниел КИЗ",
+      isbn: "121341381648",
+      pages: 450,
+      lang: "Ўзбек",
+      publisher: "Wepress Inc.",
+      date: "Апрель 7, 1999",
+      image: prod2,
+      price: "65 000 сўм",
+      price2: "75 000 сўм",
+      price3: "85 000 сўм",
+    },
+    {
+      id: 3,
+      title: "Элжернга аталган гуллар",
+      author: "Дэниел КИЗ",
+      isbn: "121341381648",
+      pages: 450,
+      lang: "Ўзбек",
+      publisher: "Wepress Inc.",
+      date: "Апрель 7, 1999",
+      image: prod3,
+      price: "65 000 сўм",
+      price2: "75 000 сўм",
+      price3: "85 000 сўм",
+    },
+    {
+      id: 4,
+      title: "Элжернга аталган гуллар",
+      author: "Дэниел КИЗ",
+      isbn: "121341381648",
+      pages: 450,
+      lang: "Ўзбек",
+      publisher: "Wepress Inc.",
+      date: "Апрель 7, 1999",
+      image: prod4,
+      price: "65 000 сўм",
+      price2: "75 000 сўм",
+      price3: "85 000 сўм",
+    },
+    {
+      id: 5,
+      title: "Элжернга аталган гуллар",
+      author: "Дэниел КИЗ",
+      isbn: "121341381648",
+      pages: 450,
+      lang: "Ўзбек",
+      publisher: "Wepress Inc.",
+      date: "Апрель 7, 1999",
+      image: prod5,
+      price: "65 000 сўм",
+      price2: "75 000 сўм",
+      price3: "85 000 сўм",
+    },
+    
+  ];
+
+  
