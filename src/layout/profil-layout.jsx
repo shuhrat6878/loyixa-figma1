@@ -1,14 +1,19 @@
 import { Link, Outlet } from "react-router-dom";
 import sugdiona from "../assets/sugdiona.png"
 import ob from "../assets/icons/obunadagi.svg"
+import hisob from "../assets/icons/hisobdagi.svg"
+import kt from "../assets/icons/kitoblarim.svg"
+import sq from "../assets/icons/saqlangan.svg"
+import sz from "../assets/icons/sozlamalar.svg"
+import oy from "../assets/icons/oy.svg"
 
 export const ProfileLoyout = () => {
     return (
 
         <div>
             <div className="container">
-                <div className="flex mb-[75px]">
-                    <p className="text-blue-500">Бош сахифа /</p>
+                <div className="flex mb-[75px] bg-gray-50">
+                    <p className="text-blue-500 ">Бош сахифа /</p>
                     <p>Профиль</p>
                 </div>
                 <div className=" flex gap-8 p-6 h-[216px]  bg-gray-50 " >
@@ -25,11 +30,11 @@ export const ProfileLoyout = () => {
                     <div className=" rounded-lg p-5 w-[250px]">
                         <div className="flex flex-col gap-4 font-medium  bg-gray-50">
                             <Link className="flex gap-4" to="/profile" ><img src={ob} alt="" /><h2>Обуна бўлиш</h2></Link>
-                            <Link className="flex gap-4" to="/profile/xisob"><img src={ob} alt="" /><h2>Э-Хисоб</h2></Link>
-                            <Link className="flex gap-4" to="/profile/kitoblarim"><img src={ob} alt="" /><h2>Китобларим</h2></Link>
-                            <Link className="flex gap-4" to="/profile/saqlangan"><img src={ob} alt="" /><h2>Сақланганлар</h2></Link>
-                            <Link className="flex gap-4" to="/profile/sozlamalar"><img src={ob} alt="" /><h2>Созламалар</h2></Link>
-                            <Link className="flex gap-4" to="/profile/tungi"><img src={ob} alt="" /><h2>Тунги режим</h2></Link>
+                            <Link className="flex gap-4" to="/profile/xisob"><img src={hisob} alt="" /><h2>Э-Хисоб</h2></Link>
+                            <Link className="flex gap-4" to="/profile/kitoblarim"><img src={kt} alt="" /><h2>Китобларим</h2></Link>
+                            <Link className="flex gap-4" to="/profile/saqlangan"><img src={sq} alt="" /><h2>Сақланганлар</h2></Link>
+                            <Link className="flex gap-4" to="/profile/sozlamalar"><img src={sz} alt="" /><h2>Созламалар</h2></Link>
+                            <Link className="flex gap-4" to="/profile/tungi"><img src={oy} alt="" /><h2>Тунги режим</h2></Link>
                         </div>
                     </div>
 

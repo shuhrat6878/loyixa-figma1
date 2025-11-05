@@ -21,7 +21,7 @@ function App() {
           <Route path="profile" element={<ProfileLoyout />}>
             <Route index element={<Profile />} />
             <Route path="obuna" element={<Obuna />} />
-            <Route path="xisob" element={<Obuna />} />
+            <Route path="xisob" element={<Hisob />} />
             <Route path="kitoblarim" element={<Kitoblarim />} />
             <Route path="saqlangan" element={<Saqlanganlar />} />
             <Route path="sozlamalar" element={<Sozlamalar />} />
